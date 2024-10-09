@@ -1,3 +1,5 @@
+// TODO: 또 보기
+
 /** 커맨드 목록 */
 const UP = "U";
 const DOWN = "D";
@@ -15,8 +17,6 @@ function solution(n, k, cmd) {
 
   const up = [...new Array(n + 2)].map((_, i) => i - 1);
   const down = [...new Array(n + 1)].map((_, i) => i + 1);
-
-  console.log(up, down);
 
   k += 1;
 
